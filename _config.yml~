@@ -70,3 +70,4 @@ theme: landscape
 deploy:
   type: git
   repo: git@github.com:tidus5/tidus5.github.io.git
+  branch: master
