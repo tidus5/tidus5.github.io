@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
+title: Tidus的博客
+subtitle:To Sun的小窝
+description:Tidus终于找到属于自己的一片空间啦，houhouhou～～～
+author: Tidus
 language:
 timezone:
 
@@ -68,6 +68,6 @@ theme: yilia
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: github
+  type: git
   repo: git@github.com:tidus5/tidus5.github.io.git
   branch: master
