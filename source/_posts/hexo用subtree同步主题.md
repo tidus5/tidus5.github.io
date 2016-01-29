@@ -65,10 +65,13 @@ Working tree has modifications.  Cannot add.
 
 `$ git commit -a -m 'update some'`
 
-`$ git subtree push -P home/.bash bash master`
+`$ git subtree push --prefix=themes/yilia/ yilia master`
 
 `$ git push origin master                                    # 顺便主项目也 push 了`
 
+或者
+
+`git subtree push -P themes/yilia/ yilia master`
 
 命令参考：
 
