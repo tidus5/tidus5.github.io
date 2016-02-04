@@ -1,0 +1,60 @@
+title: DXLib 主页，简单翻译(我其实看不懂，都是瞎掰的）
+date: 
+categories:
+- 
+tags:
+- 
+---
+原文地址：
+[http://homepage2.nifty.com/natupaji/DxLib/](http://homepage2.nifty.com/natupaji/DxLib/)
+
+Dx Library   的小院
+ＤＸライブラリとは、DirectXを使ったWindowsソフトの開発に必ず付いて回るDirectXやWindows関連のプログラムを使い易くまとめた形で利用できるようにしたＣ＋＋言語用のゲームライブラリです。(使用する際はＣ言語の知識だけで大丈夫です)
+
+DxLib， 是为了在  用DirectX技术开发windows 软件时，使得必须用的DirectX和Windows程序关联的开发更加容易 的，用C++写的一个游戏库。
+（实际上，只要用C语言的知识也就差不多够了）
+
+これによってプログラマーはゲームの本質的なプログラムに専念することが出来ます。かなり本格的なソフト制作からお遊び程度のミニゲーム制作まで幅広くカバーしています！
+
+使用了这个，可以让程序员把精力更专注的放在游戏本身上。 从相当正式的软件开发，到休闲的迷你游戏的开发，都可以用它实现。
+
+プログラムソースも公開していますので気兼ねなく使用してください。
+
+程序的源代码也已经公开了的，请放心的使用吧。
+
+下面这段，好像是推荐了两本教材。大概是两本简单易懂的C 语言教材。 学了C以后 有一定基础了再学C++，然后结合DxLib，就可以编写游戏了。
+下面的目录，大致也能看懂吧。
+
+[ＤＸライブラリ更新履歴](http://homepage2.nifty.com/natupaji/DxLib/dxlog.html)             DxLib 更新历史
+
+[ＤＸライブラリＨＰ更新履歴](http://homepage2.nifty.com/natupaji/DxLib/dxhplog.html)        DxLib  HP更新历史  （HP是个啥）
+
+
+[ＤＸライブラリの仕様と特徴](http://homepage2.nifty.com/natupaji/DxLib/dxinfo.html)        DxLib 的功能特点
+
+[どこまでできるＤＸライブラリ](http://homepage2.nifty.com/natupaji/DxLib/dxq.html)      DxLib 有多强大的功能呢  （里面是通过问答的形式，介绍功能特点的）
+
+[ＤＸライブラリのダウンロード](http://homepage2.nifty.com/natupaji/DxLib/dxdload.html)       DxLib 的下载
+
+[ＤＸライブラリの使い方](http://homepage2.nifty.com/natupaji/DxLib/dxuse.html)             DxLib 的使用方法
+ 
+
+[ＤＸライブラリの関数リファレンスマニュアル   
+＆
+サンプルプログラム](http://homepage2.nifty.com/natupaji/DxLib/dxfunc.html)                    DxLib的API手册和示例程序 （感谢谷歌终于给出明确的翻译）
+
+[ＤＸライブラリミニテクニック](http://homepage2.nifty.com/natupaji/DxLib/dxtec.html)          DxLib 的使用小技巧
+
+[ＤＸライブラリサンプルプログラム](http://homepage2.nifty.com/natupaji/DxLib/dxprogram.html)      DxLib 的示例程序
+
+[ＤＸライブラリゲームプログラム開発講座](http://homepage2.nifty.com/natupaji/DxLib/dxlecture_main.html)    DxLib 游戏编程开发讲座
+
+[ＤＸライブラリサンプルゲームのダウンロード](http://homepage2.nifty.com/natupaji/DxLib/dxsample.html)   DxLib 示例游戏 下载
+
+
+[『皆様の作品紹介！』投稿＆閲覧ページ](http://dxlib.o.oo7.jp/cgi/patio/patio.cgi)       【大家的作品介绍】 投稿和阅览
+
+
+下面好像说了一些投稿 的东西，大概就这样了，施工完毕，喵。
+大家照这个目录，去主页找对应的东西吧，闪人了，喵
+
