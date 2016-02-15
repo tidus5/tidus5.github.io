@@ -1,6 +1,10 @@
 title: hexo用subtree同步主题
 date: 2016-01-29 22:54:32
+categories:
+- Hexo
+- subtree
 tags:
+- Hexo
 ---
 
 昨天把hexo搭好了以后，改了下主题模板的设置，提交有点问题。太晚了，也就没在意
