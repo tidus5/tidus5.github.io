@@ -132,12 +132,3 @@ int WINAPI WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance,
 这就是我们目前工作的成果。
 　于是了解使用DxLib开发程序的方法了吧。 接下来就可以按自己想喜好编写程序，组合成一个游戏了。 但目前我们只知道DxLib的初始化，结束，和画一个点的函数。 　其他的函数在[DxLib的函数手册页面](http://homepage2.nifty.com/natupaji/DxLib/dxfunc.html)说明，请去那里参考一下吧。
 
-
----
-我的个人博客地址：
-
-[http://tidus5.github.io](http://tidus5.github.io)
-
-我的CSDN博客目录：
-
-[http://blog.csdn.net/tidus5](http://blog.csdn.net/tidus5)

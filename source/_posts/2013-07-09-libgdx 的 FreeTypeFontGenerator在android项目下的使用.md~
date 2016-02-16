@@ -1,9 +1,9 @@
 title: libgdx 的 FreeTypeFontGenerator在android项目下的使用
 date: 2013-07-09 00:42:00
 categories:
-- libgdx
+- 
 tags:
-- libgdx
+- 
 ---
 桌面版，使用FreeTypeFontGenerator  没什么问题，但android项目老是报错。
 网上搜了一下解决方案，把jar什么的包含了进去，还是有些问题。这里把解决的方案大致写上来。
@@ -17,11 +17,3 @@ tags:
 
 
 
----
-我的个人博客地址：
-
-[http://tidus5.github.io](http://tidus5.github.io)
-
-我的CSDN博客目录：
-
-[http://blog.csdn.net/tidus5](http://blog.csdn.net/tidus5)

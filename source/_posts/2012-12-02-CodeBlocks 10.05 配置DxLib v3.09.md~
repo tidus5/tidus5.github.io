@@ -7,7 +7,7 @@ categories:
 - MinGW
 - mingw
 tags:
-- DxLib
+- 
 ---
 从自己的百度空间搬过来的。
 出于对东方的喜爱，也想学习弹幕游戏的设计。
@@ -173,12 +173,3 @@ int WINAPI WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance,
 
 
 
-
----
-我的个人博客地址：
-
-[http://tidus5.github.io](http://tidus5.github.io)
-
-我的CSDN博客目录：
-
-[http://blog.csdn.net/tidus5](http://blog.csdn.net/tidus5)

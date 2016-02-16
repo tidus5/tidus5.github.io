@@ -1,9 +1,9 @@
 title: 用python 处理字符串，初次使用后感受
 date: 2013-10-12 10:51:00
 categories:
-- python
+- 
 tags:
-- python
+- 
 ---
          这边工作上，要处理些数据，开始有些，根据老大的指示，给excel 加上对应的分隔符，直接复制过去就是字符串数组了。
      不过，那边说漏了一些，某些ID根据vip 要加上些东西。这下好，蛋疼了。
@@ -39,13 +39,3 @@ newline = line[:len(line)-4]+pitch+line[len(line)-4:] 
 总结一下，python 掌握常用 字符串 读写 正则的API 后，并且习惯缩进式的使用，还是挺容易处理字符串类的工作的。
 只是，下次多注意，换行符，这坑爹的东西啊。。。
 
-
-
----
-我的个人博客地址：
-
-[http://tidus5.github.io](http://tidus5.github.io)
-
-我的CSDN博客目录：
-
-[http://blog.csdn.net/tidus5](http://blog.csdn.net/tidus5)

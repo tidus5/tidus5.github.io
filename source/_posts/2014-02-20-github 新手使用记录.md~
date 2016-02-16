@@ -3,7 +3,7 @@ date: 2014-02-20 00:58:00
 categories:
 - 
 tags:
-- 
+- github
 ---
 
 个人用github 的笔记。
@@ -24,3 +24,13 @@ git 上 add 了多余的文件，要删掉，不是输 git rm 。 我就是因�
 
 
 然后，push remote 的时候可能会失败，提示个no access to reposity 什么的。可能是地址搞错了，这个存在 .git/config 文件中，把里面的remote 这段删了，重新添加即可。
+
+
+---
+我的个人博客地址：
+
+[http://tidus5.github.io](http://tidus5.github.io)
+
+我的CSDN博客目录：
+
+[http://blog.csdn.net/tidus5](http://blog.csdn.net/tidus5)

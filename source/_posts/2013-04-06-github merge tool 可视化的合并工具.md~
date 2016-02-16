@@ -17,10 +17,10 @@ git mergetool 的时候，提示 `C:\program files\..`   下的 bcomp.exe 找�
 
 对于windows 用户：
 
-Windows users can configure this by entering the commands:	
+Windows users can configure this by entering the commands:	`git config --global diff.tool bc3`
 
-	git config --global diff.tool bc3
-	git config --global difftool.bc3.path "C:\Program Files (x86)\Beyond Compare 3\BComp.exe"
+
+	`git config --global difftool.bc3.path "C:\Program Files (x86)\Beyond Compare 3\BComp.exe"`
 上面就是用命令，把bc3 改成 diff 的工具下面是配置文件，直接改这个文件，效果一样的。在我这，路径应该是 C:\Users\用户名\.gitconfig
 ###Windows
 	notepad C:\Program Files\git\etc\config

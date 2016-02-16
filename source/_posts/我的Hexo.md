@@ -49,3 +49,12 @@ http://litten.github.io/2014/08/31/hexo-theme-yilia/
     依次执行git add .、git commit -m “…”、git push origin hexo指令将改动推送到GitHub（此时当前分支应为hexo）；
     然后才执行hexo generate -d发布网站到master分支上。
 
+
+---
+我的个人博客地址：
+
+[http://tidus5.github.io](http://tidus5.github.io)
+
+我的CSDN博客目录：
+
+[http://blog.csdn.net/tidus5](http://blog.csdn.net/tidus5)
