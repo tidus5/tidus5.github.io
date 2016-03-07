@@ -1,0 +1,22 @@
+title: hexo添加hexo-math插件以支持LaTeX公式
+date: 2016-03-06 00:00:19
+tags:
+---
+
+翻译四圣龙神录的时候，遇到图片里包含了公式的，正好最近在学markdown，而CSDN的md编辑器包含支持LaTeX公式的MathJax插件。  
+但转到自己的Hexo博客，就得单独添加插件了。网上找了点资料，已经有人做好了hexo的MathJax插件了。安装也很简单。  
+可以参考 [利用MathJax来渲染LaTeX数学公式][1]进行安装，具体可以去    
+
+
+
+
+参考页面：
+
+[hexo-math github项目页面][2] 上面有安装方法
+[已经过时的hexo-math 中文说明，新的参考github页](http://catx.me/2014/03/09/hexo-mathjax-plugin/)
+[玩转hexo博客 添加音乐播放器](http://www.tuicool.com/articles/NneMnuF)
+
+
+
+[1](http://blog.csdn.net/emptyset110/article/details/50123231)
+[2](https://github.com/akfish/hexo-math)

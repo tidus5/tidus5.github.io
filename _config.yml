@@ -71,6 +71,11 @@ pagination_dir: page
 ## Themes: http://hexo.io/themes/
 theme: yilia
 
+mathjax:
+  src: custom_mathjax_source
+  config:
+    # MathJax config
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
