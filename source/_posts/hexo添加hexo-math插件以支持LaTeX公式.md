@@ -13,7 +13,9 @@ tags:
 于是，卸载hexo， 用命令 npm uninstall hexo  
 然后，可以安装3.1.1版本的hexo， 网上教程一般是用命令npm install -g hexo@3.1.1   
 但，[官网](https://hexo.io/zh-cn/) 上是用的 npm install -g hexo-cli  
-建议用官网的命令吧。反正就安装会hexo 3.1.1 版本，hexo g 就不报错了。
+
+建议指定版本，官网的安装貌似也会装到3.2.0去。
+反正就安装回hexo 3.1.1 版本，hexo g 就不报错了。
 
 
 
