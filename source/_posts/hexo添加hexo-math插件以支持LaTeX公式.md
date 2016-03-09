@@ -21,14 +21,14 @@ $E=mc^2$
 最近发现一个问题。我的hexo编译有可能出现错误。提示DS.store的 compile 找不到之类的问题。
 反复参照正确的设置，发现是hexo的版本发生了变化。  
 之前没问题的，是hexo 3.1.1版本。有问题的是hexo 3.2.0版本。  
-反复尝试后，卸载hexo， 用命令 npm uninstall hexo  
-然后安装3.1.1版本的hexo， 网上教程一般是用命令npm install -g hexo@3.1.1   
-安装回hexo 3.1.1 版本，hexo g 就不报错了。
+安装3.1.1版本的hexo， 用命令npm install hexo@3.1.1， 可以覆盖本地之前安装的3.2.0。  
+可以用 npm ls 查看已安装的组件，安装回hexo 3.1.1 版本，hexo g 就不报错了。
 这个bug已经有人建立了一个 [issue](https://github.com/hexojs/hexo/issues/1793)  
-持续关注。。
+持续关注中。。
 
 PS:[官网](https://hexo.io/zh-cn/) 上是用的 npm install -g hexo-cli  
-官网的安装貌似也会装到3.2.0去。
+这是全局安装hexo-cli, 然后在blog文件夹执行hexo init 的时候，也会安装到hexo@3.2.0去。
+npm ls 是查看本地安装的组件， npm ls -g 是查看全局安装的组件。
 
 参考页面：
 [hexo-math 中文说明](http://catx.me/2014/03/09/hexo-mathjax-plugin/) （已过时，新的参考插件的github页）  
@@ -43,6 +43,7 @@ PS:[官网](https://hexo.io/zh-cn/) 上是用的 npm install -g hexo-cli
 [2]: https://github.com/akfish/hexo-math
 
 
+
 ---
 
 我的个人博客地址：
@@ -52,3 +53,5 @@ PS:[官网](https://hexo.io/zh-cn/) 上是用的 npm install -g hexo-cli
 我的CSDN博客目录：
 
 [http://blog.csdn.net/tidus5](http://blog.csdn.net/tidus5)
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=208902&auto=0&height=66"></iframe>
