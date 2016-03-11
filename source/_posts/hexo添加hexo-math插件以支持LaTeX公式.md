@@ -26,6 +26,16 @@ $E=mc^2$
 这个bug已经有人建立了一个 [issue](https://github.com/hexojs/hexo/issues/1793)  
 持续关注中。。
 
+hexo作者对这个问题作了回复了。因为.DS.Store 是Mac系统生成的文件，这里直接删掉就行。
+`git rm ./themes/yilia/layout/.DS_Store`
+`git rm ./themes/yilia/layout/_partial/.DS_Store`
+`git commit -am "delete .DS_Store`
+OK,然后就可以把hexo升级到3.2.0了，直接 npm install hexo 就行。
+升级之后，hexo g 生成以后如果没有变化，重新hexo g好像不会再全部生成了，有文章修改也只生成修改部分的文件，大大提高生成的速度。
+[https://github.com/hexojs/hexo/issues/1807](https://github.com/hexojs/hexo/issues/1807)
+[https://github.com/litten/hexo-theme-yilia/issues/189](https://github.com/litten/hexo-theme-yilia/issues/189)
+
+
 PS:[官网](https://hexo.io/zh-cn/) 上是用的 npm install -g hexo-cli  
 这是全局安装hexo-cli, 然后在blog文件夹执行hexo init 的时候，也会安装到hexo@3.2.0去。
 npm ls 是查看本地安装的组件， npm ls -g 是查看全局安装的组件。
