@@ -26,6 +26,10 @@ https://www.zhihu.com/question/32213693/answer/55425001
 3.  用git的subtree，也是子文件夹里包含分支项目，但管理上比submodule简单一些，也可同步更新。
 
 网上搜索了一些submodule 和subtree 的资料，虽然还不是很懂，还是考虑用简单的subtree来管理。
+
+
+<!--more-->
+ 
 具体实施，基本参考这个页面：
 http://aoxuis.me/post/2013-08-06-git-subtree
 

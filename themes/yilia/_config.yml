@@ -78,28 +78,19 @@ slider:
   # 是否默认展开tags板块
   showTags: false
 
+  
 # 智能菜单
 # 如不需要，将该对应项置为false
 # 比如
 #smart_menu:
 #  friends: false
-smart_menu:
-# innerArchive: '所有文章'
-# friends: '友链'
-# aboutme: '关于我'
 
+smart_menu:
+  innerArchive: '所有文章'
+  friends: '友链'
+  aboutme: '关于我'
 
 friends:
-   我的CSDN博客: http://blog.csdn.net/tidus5
-#  卡卡的美丽传说: http://localhost:4000/
-#  本泽马的博客: http://localhost:4000/
-#  吉格斯的博客: http://localhost:4000/
-#  习大大大不同: http://localhost:4000/
-#  托蒂的博客: http://localhost:4000/
+  我的CSDN博客: http://blog.csdn.net/tidus5
 
-#是否开启“关于我”。
-#不开启——
-#aboutme: false
-#开启——
 aboutme: 咱们屯里的人啊，屯里的人。。。
-

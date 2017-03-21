@@ -15,6 +15,7 @@ git mergetool 的时候，提示 `C:\program files\..`   下的 bcomp.exe 找�
 我这好像装了某个版本的beyond compare ，这东西确实比较好用。
 设置的话，经google 查找   git mergetool  beyondcompare  找到介绍。
 
+ <!--more-->
 对于windows 用户：
 
 Windows users can configure this by entering the commands:	
