@@ -26,6 +26,8 @@ $E=mc^2$
 这个bug已经有人建立了一个 [issue](https://github.com/hexojs/hexo/issues/1793)  
 持续关注中。。
 
+<!-- more -->
+
 hexo作者对这个问题作了回复了。因为.DS.Store 是Mac系统生成的文件，这里直接删掉就行。
 `git rm ./themes/yilia/layout/.DS_Store`
 `git rm ./themes/yilia/layout/_partial/.DS_Store`
