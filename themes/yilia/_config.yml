@@ -2,7 +2,8 @@
 
 menu:
   主页: /
-  随笔: /tags/随笔/
+  Hexo: /tags/Hexo/
+  四圣龙神录: /tags/四圣龙神录/
 
 # SubNav
 subnav:
