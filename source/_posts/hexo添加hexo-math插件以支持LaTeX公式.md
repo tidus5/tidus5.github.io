@@ -2,11 +2,10 @@ title: hexo添加hexo-math插件以支持LaTeX公式
 date: 2016-03-06 00:00:19
 categories:
 - hexo
+tags:
 - hexo-math
 - LaTex
 - MathJax
-tags:
-- hexo
 ---
 
 翻译四圣龙神录的时候，遇到图片里包含了公式的，正好最近在学markdown，而CSDN的md编辑器包含支持LaTeX公式的MathJax插件。  

@@ -1,10 +1,10 @@
 title: Gnu C++ (Bloodshed Dev-C++) 上DxLib的使用方法 （渣翻译）
 date: 2013-11-03 16:40:00
 categories:
+- 游戏开发
+tags:
 - C++
 - C语言
-- DxLib
-tags:
 - DxLib
 ---
 

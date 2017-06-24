@@ -2,7 +2,6 @@ title: github merge tool 可视化的合并工具
 date: 2013-04-06 23:27:00
 categories:
 - github
-- merge
 tags:
 - github
 ---
