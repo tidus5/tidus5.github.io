@@ -77,3 +77,26 @@ id 和key 填oath 生成的就行。
 OAuth 生成后如果id和key忘了，可以在github 点自己头像的setting，点左边的 Deleloper Setting 然后可以看到自己创建的OAuth Apps  
 OAuth 的callback URL 需要配置成博客的实际绑定域名，比如绑定到 imsun.net 就要填 https://imsun.net ，不然登录就会跳回首页，并提示地址不匹配。  
 
+3. fork之后theme更新了，怎么拉取最新的theme呢？git命令太麻烦了，看不懂  
+我也觉得fork之后同步更新的命令比较麻烦，所以找了个ui操作的版本，这篇文章前面讲提交PR给原作者，后半部分讲拉取更新到自己的repo  
+[如何同步fork项目后作者的更新](http://blog.csdn.net/t111t/article/details/45894381)  
+
+首先讲一下，何为Pull Request. 这个翻译过来叫做“拉取请求”，你对别人的项目有修改，然后提交一个PR，“请求”作者来“拉取”你的提交。  
+然后，PR可以是双向的，意思是可以从别人的项目创建PR，发给自己fork的项目。  
+要同步更新，可以去自己fork的项目发起一个Pull Request， 然后会显示两个分支。  
+如果只看到分支，看不到项目地址，点那个小字“ compare across forks.” 
+然后左边设置成左边是自己的项目，右边是作者的项目。  
+
+注意
+===
+PR合并方向是从右向左的
+===
+PR合并方向是从右向左的
+===
+PR合并方向是从右向左的
+===
+重要的事情说三遍。因为现在PR 页面没有那个 ← 的箭头指示了。 我都已经两次搞错方向，自己给别人提了个老版本的PR。然后尴尬的去关掉 o(╯□╰)o  
+选好了之后，下面会看到作者和别人的提交（如果选错方向，下面会显示自己的提交）  
+然后提交，就合并到最新的代码了。  
+本地再 git pull 或者 git subtree pull --prefix=themes/yilia yilia master --squash 就可以拉取下来了。  
+
