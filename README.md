@@ -59,3 +59,19 @@ hexo d    #部署到GitHub
 hexo g -d #生成并部署  
 
 
+Q&A:
+1. hexo 的depoly怎么填
+好像是不同的hexo版本填的有点区别，反正我填的是
+deploy:
+  type: git
+  repo: git@github.com:tidus5/tidus5.github.io.git
+  branch: master
+
+2. gitment 评论怎么配置
+yilia已经集成gitment，只需要填4个参数。要自己集成可参考 [gitment](https://imsun.net/posts/gitment-introduction/)
+owner 填github 的 id
+repo  存储评论的 repo， 可以直接用博客的repo， 比如 'tidus5.github.io'
+id 和key 填oath 生成的就行。
+OAuth 生成后如果id和key忘了，可以在github 点自己头像的setting，点左边的 Deleloper Setting 然后可以看到自己创建的OAuth Apps
+OAuth 的callback URL 需要配置成博客的实际绑定域名，比如绑定到 imsun.net 就要填 https://imsun.net ，不然登录就会跳回首页，并提示地址不匹配。
+
