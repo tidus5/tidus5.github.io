@@ -31,10 +31,12 @@ hexo搭建github静态博客（记录下本博客搭建的流程）
 >普通用户基本只会修改_config.yml文件，这时只要git pull下来即可；  
 >如果你有修改源文件，做了一些编译工作，建议自行fork，再选择性merge我这边的更新。  
 
-我这里首先要从yilia项目上进行fork，然后这里使用了subtree来在项目中嵌入其他项目。(上传配置小心会泄漏秘钥等敏感数据，如果不在意就没事。。）
-(在github里用subtree同步hexo主题)[http://tidus.site/2016/01/29/hexo%E7%94%A8subtree%E5%90%8C%E6%AD%A5%E4%B8%BB%E9%A2%98/]
-(使用git subtree集成项目到子目录)[https://aoxuis.me/bo-ke/2013-08-06-git-subtree]
-1. 把yilia项目fork 到自己账号下。
+我这里首先要从yilia项目上进行fork，然后这里使用了subtree来在项目中嵌入其他项目。
+(上传配置小心会泄漏秘钥等敏感数据，如果不在意就没事。。）  
+[在github里用subtree同步hexo主题](http://tidus.site/2016/01/29/hexo%E7%94%A8subtree%E5%90%8C%E6%AD%A5%E4%B8%BB%E9%A2%98/)  
+[使用git subtree集成项目到子目录](https://aoxuis.me/bo-ke/2013-08-06-git-subtree)  
+
+1. 把yilia项目fork 到自己账号下。  
 2. 如果本地在hexo项目想已经在使用yilia主题，则先备份yilia下的_config.yml文件，然后执行 git rm themes/yilia 、git commit -m "delete yilia" 、git push origin hexo 删除yilia 目录
 3. git remote add -f yilia git@github.com:tidus5/hexo-theme-yilia.git
 4. git subtree add --prefix=themes/yilia yilia master --squash
@@ -42,18 +44,18 @@ hexo搭建github静态博客（记录下本博客搭建的流程）
 6. git subtree pull --prefix=themes/yilia yilia master --squash
 
 修改了主题配置后，提交推送
-git add .
-git commit -am 'update some'
-git subtree push --prefix=themes/yilia/ yilia master
-博客项目提交推送
-git add.
-git commit -am 'update some'
-git push origin master
-博客日常发表，生成，发布
-hexo n "文章标题"   #新建文章
-hexo g    #生成静态页面至public目录
-hexo s    #开启预览访问端口
-hexo d    #部署到GitHub
-hexo g -d #生成并部署
+git add .  
+git commit -am 'update some'  
+git subtree push --prefix=themes/yilia/ yilia master  
+博客项目提交推送  
+git add.  
+git commit -am 'update some'  
+git push origin master  
+博客日常发表，生成，发布  
+hexo n "文章标题"   #新建文章  
+hexo g    #生成静态页面至public目录  
+hexo s    #开启预览访问端口  
+hexo d    #部署到GitHub  
+hexo g -d #生成并部署  
 
 
