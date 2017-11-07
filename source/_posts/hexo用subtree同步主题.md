@@ -31,7 +31,7 @@ https://www.zhihu.com/question/32213693/answer/55425001
 <!--more-->
  
 具体实施，基本参考这个页面：
-http://aoxuis.me/post/2013-08-06-git-subtree
+https://aoxuis.me/bo-ke/2013-08-06-git-subtree
 
 由于第一次subtree的时候，提示
 
