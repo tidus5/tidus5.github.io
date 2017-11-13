@@ -1,9 +1,7 @@
 title: android adb is down
 date: 2013-01-08 23:46:00
 categories:
-- android
 - Android
-- ANDROID
 tags:
 - android
 ---
