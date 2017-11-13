@@ -13,6 +13,8 @@ slf4j全称为Simple Logging Facade for JAVA，java简单日志门面。类似�
 
 [slf4j官网下载地址](https://www.slf4j.org/download.html)
 
+ <!--more-->
+
 这个东西要用图才能说得清楚，借用官网一张图：
 
 ![](https://www.slf4j.org/images/concrete-bindings.png)
