@@ -37,12 +37,9 @@ slf4j的核心包是slf4j-api-1.7.25.jar，需要配合日志实现，才能将�
 	slf4j-nop.jar       -->    (          slf4j -> null)          slf4j的空接口输出绑定，丢弃所有日志输出  
 	slf4j-simple.jar    -->    (          slf4j -> slf4j-simple ) slf4j的自带的简单日志输出接口  
 
-这样整理之后，slf4j的jar包用途就比较清晰了。
-
-目前个人遇到的项目里，一般还会有log4j和log4j2混用的问题。
-
-因为log4j项目已经停止更新了，官方建议用log4j2。
-
+这样整理之后，slf4j的jar包用途就比较清晰了。  
+目前个人遇到的项目里，一般还会有log4j和log4j2混用的问题。  
+因为log4j项目已经停止更新了，官方建议用log4j2。  
 然后，log4j2里也提供了对各类log的桥接支持，这里就只列举相关的几个jar包说明。
 
 	log4j-1.2-api.jar   -->    (log4j  -> log4j2)               将log4j 的日志转接到log4j2日志框架  
@@ -52,20 +49,20 @@ slf4j的核心包是slf4j-api-1.7.25.jar，需要配合日志实现，才能将�
 	log4j-to-slf4j.jar  -->    (          log4j2 -> slf4j)      将 log4j2的日志桥接到 slf4j  (不能和 log4j-slf4j-impl 同时用)  
 
 从这里就已经可以看到，日志框架之间的关系有点乱。  
-
 因为log4j2和slf4j都能对接多种日志框架，所以这些包的依赖，作用，还有命名，都容易让人混淆。
 
 ***
 
 这里针对 log4j, log4j2, slf4j做一个简单总结。
-
 **log4j**  
 
 这个最简单，单独使用jar包就一个，已经停止更新，当前最新版是 log4j-1.2.17.jar  
 只有输出功能，没有转接功能。  
 可以用  
+
 	//    PropertyConfigurator.configure("conf/log4j.properties");  
 	//    DOMConfigurator.configure("conf/log4j.xml");  
+	
 来指定配置文件位置。  
 
 ***
