@@ -33,67 +33,69 @@ https://www.zhihu.com/question/32213693/answer/55425001
 具体实施，基本参考这个页面：
 https://aoxuis.me/bo-ke/2013-08-06-git-subtree
 
+先把主题fork一份到自己账号下，然后这个repo既可以接受原repo的更新，又可以作为自己个人修改的提交。
+
 由于第一次subtree的时候，提示
 
-prefix 'themes/yilia' already exists.
+	prefix 'themes/yilia' already exists.
 
 若只是删除了目录再subtree会提示
 
-Working tree has modifications.  Cannot add.
+	Working tree has modifications.  Cannot add.
 
 所以，本地删掉了yilia目录（先备份config）并提交，保证本地项目干净。
 
-`git rm themes/yilia`
+	`git rm themes/yilia`
 
-`git commit -m "delete yilia"`
+	`git commit -m "delete yilia"`
 
-`git push origin hexo`
+	`git push origin hexo`
 
-`git status`
+	`git status`
 
-`git remote add -f yilia git@github.com:tidus5/hexo-theme-yilia.git`
+	`git remote add -f yilia git@github.com:tidus5/hexo-theme-yilia.git`
 
-`git subtree add --prefix=themes/yilia yilia master --squash`
+	`git subtree add --prefix=themes/yilia yilia master --squash`
 
-`git fetch yilia master`
+	`git fetch yilia master`
 
 
 然后，最后一条命令执行时报了个错误
 
-`git subtree pull --prefix=themes/yilia/ yilia --squash`
+	`git subtree pull --prefix=themes/yilia/ yilia --squash`
 
-`You must provide <repository> <ref>`
+	`You must provide <repository> <ref>`
 
 试了下，在命令中加上具体分支名就行了
 
-`git subtree pull --prefix=themes/yilia yilia master  --squash`
+	`git subtree pull --prefix=themes/yilia yilia master  --squash`
 
 
 在使用上，可以就看做是自己项目的一部分（我是这么理解的）。但subtree的部分，也可以单独推送，和获取更新
 
-`$ git commit -a -m 'update some'`
+	`$ git commit -a -m 'update some'`
 
-`$ git subtree push --prefix=themes/yilia/ yilia master`
+	`$ git subtree push --prefix=themes/yilia/ yilia master`
 
-`$ git push origin master                                    # 顺便主项目也 push 了`
+	`$ git push origin master                                    # 顺便主项目也 push 了`
 
 或者
 
-`git subtree push -P themes/yilia/ yilia master`
+	`git subtree push -P themes/yilia/ yilia master`
 
 命令参考：
 
-`'git subtree' add   -P <prefix> <commit>`
+	`'git subtree' add   -P <prefix> <commit>`
 
-`'git subtree' add   -P <prefix> <repository> <ref>`
+	`'git subtree' add   -P <prefix> <repository> <ref>`
 
-`'git subtree' pull  -P <prefix> <repository> <ref>`
+	`'git subtree' pull  -P <prefix> <repository> <ref>`
 
-`'git subtree' push  -P <prefix> <repository> <ref>`
+	`'git subtree' push  -P <prefix> <repository> <ref>`
 
-`'git subtree' merge -P <prefix> <commit>`
+	`'git subtree' merge -P <prefix> <commit>`
 
-`'git subtree' split -P <prefix> [OPTIONS] [<commit>]`
+	`'git subtree' split -P <prefix> [OPTIONS] [<commit>]`
 
 
 相关参考资料：
@@ -126,7 +128,7 @@ https://segmentfault.com/q/1010000000799558
 
 https://hpc.uni.lu/blog/2014/understanding-git-subtree/
 
-http://aoxuis.me/post/2013-08-06-git-subtree
+https://aoxuis.me/bo-ke/2013-08-06-git-subtree
 
 http://havee.me/linux/2012-07/the-git-advanced-subtree.html
 
