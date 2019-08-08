@@ -3,7 +3,10 @@
 hexo搭建github静态博客（记录下本博客搭建的流程）  
 [CrazyMilk的基于github保存文章的教程](https://www.zhihu.com/question/21193762/answer/79109280)  
 [GitHub Pages + Hexo搭建博客](http://crazymilk.github.io/2015/12/28/GitHub-Pages-Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/#more)
-一、关于搭建的流程
+[使用持续集成工具管理你的hexo博客](https://easyhexo.com/1-Hexo-install-and-config/1-5-continuous-integration.html)
+*****
+
+# 一、关于搭建的流程
 准备工作，github申请账号，安装git 和 nodejs.
 1. 建立 自己用户名.github.io 的仓库 （比如 CrazyMilk.github.io）。
 2. 创建两个分支：master 与 hexo；
@@ -15,16 +18,16 @@ hexo搭建github静态博客（记录下本博客搭建的流程）
 8. 执行hexo g -d生成网站并部署到GitHub上。
 这样一来，在GitHub上的http://CrazyMilk.github.io仓库就有两个分支，一个hexo分支用来存放网站的原始文件，一个master分支用来存放生成的静态网页。完美( •̀ ω •́ )y！  
 
-二、关于日常的改动流程
+# 二、关于日常的改动流程
 1. 依次执行git add .、git commit -m "..."、git push origin hexo指令将改动推送到GitHub（此时当前分支应为hexo）；
 2. 然后才执行hexo g -d发布网站到master分支上。
 
-三、本地资料丢失后的流程
+# 三、本地资料丢失后的流程
 当重装电脑之后，或者想在其他电脑上修改博客，可以使用下列步骤：  
 1. 使用git clone git@github.com:CrazyMilk/CrazyMilk.github.io.git拷贝仓库（默认分支为hexo）；
 2. 在本地新拷贝的http://CrazyMilk.github.io文件夹下通过Git bash依次执行下列指令：npm install hexo-cli -g、npm install、npm install hexo-deployer-git（记得，不需要hexo init这条指令）。
 
-四、配置主题的流程
+# 四、配置主题的流程
 然后，因为我hexo用了yilia主题，存放在hexo的themes目录下。  
 关于项目更新，作者的回复是：
 >其实是一个git使用的问题。  
@@ -59,6 +62,22 @@ hexo g    #生成静态页面至public目录
 hexo s    #开启预览访问端口  
 hexo d    #部署到GitHub  
 hexo g -d #生成并部署  
+
+# 五、持续集成
+开启持续集成后，每次修改了原文章，只需要commit 和push。 ci会自动进行发布了。
+大致方法就是
+1.注册 Travis CI 账号，绑定 GitHub 账户
+2.hexo分支存放博客源文件（上面已经做到了）
+3.在hexo分支中，建立.travis.yml文件。（内容就如项目中所填的那样）
+4.准备好3个变量 
+$GIT_NAME：git 用户名
+$GIT_EMAIL：git 用户邮箱
+$GITHUB_TOKEN：GitHub 通行证 (token) 字符串 
+（token在Github > Setting > Developer setting > Personal access token申请，并给予 Token 第一项 repo 的全部权限）
+Travis CI 仓库配置中，将三个变量填入设置（位于 Settings > Environment Variables 处并保存
+5.布置成功。hexo分支有commit，push。 就会自动打包发布了
+
+---
 
 
 Q&A:  
