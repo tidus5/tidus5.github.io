@@ -102,6 +102,15 @@ gitment_repo: 'tidus5.github.io'          #存储评论的 repo
 gitment_oauth:
   client_id: 'a73e4d0439462e47a3ef'           #client ID
   client_secret: 'adbdb833d8c7b17a4b4513748e9cfdbdf6544758'       #client secret
+  
+#6、Valine https://valine.js.org
+valine: 
+ appid: DbOA87vGj8k33yumS2SW6ENt-gzGzoHsz   #Leancloud应用的appId
+ appkey: jYrnsiKjlqNwhlHyDY61V8ko           #Leancloud应用的appKey
+ verify: false #验证码
+ notify: false #评论回复提醒
+ avatar: mm #评论列表头像样式：''/mm/identicon/monsterid/wavatar/retro/hide
+ placeholder: Just go go #评论框占位符
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
