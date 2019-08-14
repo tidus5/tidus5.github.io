@@ -104,8 +104,8 @@ gitment_oauth:
   
 #6、Valine https://valine.js.org
 valine: 
- appid: DbOA87vGj8k33yumS2SW6ENt-gzGzoHsz   #Leancloud应用的appId
- appkey: jYrnsiKjlqNwhlHyDY61V8ko           #Leancloud应用的appKey
+ appid:  #Leancloud应用的appId
+ appkey:  #Leancloud应用的appKey
  verify: false #验证码
  notify: false #评论回复提醒
  avatar: mm #评论列表头像样式：''/mm/identicon/monsterid/wavatar/retro/hide
