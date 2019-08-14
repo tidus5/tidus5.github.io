@@ -97,20 +97,21 @@ changyan_conf: false
 disqus: false
 
 #5、Gitment
-gitment_owner: 'tidus5'      #你的 GitHub ID
-gitment_repo: 'tidus5.github.io'          #存储评论的 repo
-gitment_oauth:
-  client_id: 'a73e4d0439462e47a3ef'           #client ID
-  client_secret: 'adbdb833d8c7b17a4b4513748e9cfdbdf6544758'       #client secret
+
+#gitment_owner: 'tidus5'      #你的 GitHub ID
+#gitment_repo: 'tidus5.github.io'          #存储评论的 repo
+#gitment_oauth:
+#  client_id: ''           #client ID
+#  client_secret: ''       #client secret
   
 #6、Valine https://valine.js.org
 valine: 
- appid:  #Leancloud应用的appId
- appkey:  #Leancloud应用的appKey
+ appid: DbOA87vGj8k33yumS2SW6ENt-gzGzoHsz   #Leancloud应用的appId
+ appkey: jYrnsiKjlqNwhlHyDY61V8ko           #Leancloud应用的appKey
  verify: false #验证码
  notify: false #评论回复提醒
- avatar: mm #评论列表头像样式：''/mm/identicon/monsterid/wavatar/retro/hide
- placeholder: Just go go #评论框占位符
+ avatar: wavatar #评论列表头像样式：''/mm/identicon/monsterid/wavatar/retro/hide
+ placeholder: 来说点什么吧 #评论框占位符
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
@@ -139,6 +140,6 @@ smart_menu:
 friends:
   我的CSDN博客: http://blog.csdn.net/tidus5
 
-aboutme: 年方二八的程序员大叔，求对象啊。。。
+aboutme: 年方二八+2的程序员大叔，求对象啊。。。
 
 
