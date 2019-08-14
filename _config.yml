@@ -96,11 +96,11 @@ changyan_conf: false
 disqus: false
 
 #5、Gitment
-gitment_owner: tidus5      #你的 GitHub ID
-gitment_repo: 'https://github.com/tidus5/tidus5.github.io'          #存储评论的 repo
-gitment_oauth:
-  client_id: 'a73e4d0439462e47a3ef'           #client ID
-  client_secret: 'adbdb833d8c7b17a4b4513748e9cfdbdf6544758'       #client secret
+#gitment_owner: 'tidus5'      #你的 GitHub ID
+#gitment_repo: 'tidus5.github.io'          #存储评论的 repo
+#gitment_oauth:
+#  client_id: ''           #client ID
+#  client_secret: ''       #client secret
   
 #6、Valine https://valine.js.org
 valine: 
