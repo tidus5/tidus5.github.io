@@ -16,9 +16,9 @@ Jmeter默认不包含WebSocket的测试，需要单独下JMeter的插件。
 
 在Option菜单，点开 Plugin Manager。 在Available Plugins中搜一下，可以看到有两个websocket插件。
 
-** WebSocket Sampler by Maciej Zaleski **
+**WebSocket Sampler by Maciej Zaleski**
 
-** WebSocket Samplers by Peter Doornbosch **
+**WebSocket Samplers by Peter Doornbosch**
 
 开始，我选择安装的是第一个Maciej Zaleski的版本，去他的插件主页可以看到，有好几年没更新了。
 其实这个插件运行有问题的，会出现压测延迟的问题。所以建议换另一个插件。下面可以不用看了。
@@ -61,7 +61,7 @@ JMeter基本测试，首先需要往Test Plan 下添加线程组。以下对线�
  最终试了半天，感觉服务器应该是没问题的。
  最终换了个 websocket 插件，就没有遇到这个问题了。
  
- 所以，如果有遇到类似问题的，请使用 ** WebSocket Samplers by Peter Doornbosch ** 这个插件。
+ 所以，如果有遇到类似问题的，请使用 **WebSocket Samplers by Peter Doornbosch** 这个插件。
 
 
 参考资料：
