@@ -6,6 +6,8 @@ tags:
 ---
 用JDK7，在idea直接启动的时候，用jmap -heap pid 查看进程申请的内存的时候，发现一个问题。
 
+ <!--more-->
+ 
 ···
 Heap Configuration:
    MinHeapFreeRatio = 0
