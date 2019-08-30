@@ -3,7 +3,7 @@ date: 2016-01-29 22:54:32
 categories:
 - Hexo
 tags:
-- Hexo
+- hexo
 - subtree
 ---
 

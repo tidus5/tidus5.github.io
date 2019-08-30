@@ -3,6 +3,7 @@ date: 2016-03-06 00:00:19
 categories:
 - hexo
 tags:
+- hexo
 - hexo-math
 - LaTex
 - MathJax
