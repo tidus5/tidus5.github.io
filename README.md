@@ -16,7 +16,7 @@ hexo搭建github静态博客（记录下本博客搭建的流程）
 6. 修改_config.yml中的deploy参数，分支应为master；
 7. 依次执行git add .、git commit -m "..."、git push origin hexo提交网站相关的文件；
 8. 执行hexo g -d生成网站并部署到GitHub上。
-这样一来，在GitHub上的http://CrazyMilk.github.io仓库就有两个分支，一个hexo分支用来存放网站的原始文件，一个master分支用来存放生成的静态网页。完美( •̀ ω •́ )y！  
+这样一来，在GitHub上的 CrazyMilk.github.io  仓库就有两个分支，一个hexo分支用来存放网站的原始文件，一个master分支用来存放生成的静态网页。完美( •̀ ω •́ )y！  
 
 ## 二、关于日常的改动流程
 1. 依次执行git add .、git commit -m "..."、git push origin hexo指令将改动推送到GitHub（此时当前分支应为hexo）；
@@ -25,7 +25,7 @@ hexo搭建github静态博客（记录下本博客搭建的流程）
 ## 三、本地资料丢失后的流程
 当重装电脑之后，或者想在其他电脑上修改博客，可以使用下列步骤：  
 1. 使用git clone git@github.com:CrazyMilk/CrazyMilk.github.io.git拷贝仓库（默认分支为hexo）；
-2. 在本地新拷贝的http://CrazyMilk.github.io文件夹下通过Git bash依次执行下列指令：npm install hexo-cli -g、npm install、npm install hexo-deployer-git（记得，不需要hexo init这条指令）。
+2. 在本地新拷贝的 CrazyMilk.github.io 文件夹下通过Git bash依次执行下列指令：npm install hexo-cli -g、npm install、npm install hexo-deployer-git（记得，不需要hexo init这条指令）。
 
 ## 四、配置主题的流程
 然后，因为我hexo用了yilia主题，存放在hexo的themes目录下。  
