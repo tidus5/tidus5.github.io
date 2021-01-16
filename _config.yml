@@ -103,3 +103,10 @@ deploy:
   type: git
   repo: git@github.com:tidus5/tidus5.github.io.git
   branch: master
+
+# hexo-admin authentification
+admin:
+  username: tidus
+  password_hash: $2a$10$poMw/I/Vhy0D4LrLhq0HPO7HG2otrPTdhUoQ0p1.1wFdpYkllhJwi
+  secret: FEqkW4HQXvTTCYuz7D52
+  deployCommand: './hexo-deploy.sh'
